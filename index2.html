@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar na conta</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1>
-        Entrar
-    </h1>
-    <input type="email" name="iemail" id="iemail">
-    <input type="password" name="isenha" id="isenha">
+    Email:<input type="email" name="email" id="email"><br>
+    Senha:<input type="password" name="senha" id="senha"><br>
+    <input type="button" value="Criar" onclick="redirecionar2()">
+    <div>
+        Já tem uma conta?
+    </div>
+
+
+
+    <input type="button" value="Entrar" onclick="redirecionar()">
+    <script src="index.js"></script>
 </body>
 </html>
