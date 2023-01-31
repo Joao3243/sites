@@ -2,3 +2,8 @@
     height: 250px;
     width:250px;
 }
+. botão {
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+}
